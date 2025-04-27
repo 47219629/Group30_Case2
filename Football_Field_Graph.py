@@ -53,7 +53,7 @@ plt.bar_label(p2, labels=[f'{bar.get_width():.2f}' for bar in p3], label_type='e
 plt.axvline(x=float(stock_data['Close'].iloc[len(stock_data['Close'])-1].item()), color='r', linestyle='--', label='Spot Price: A${:.2f}'.format(stock_data['Close'].iloc[len(stock_data['Close'])-1].item()))
 plt.legend(fontsize=12)  # Add legend to display the label
 plt.axvline(x=float(Target_Price), color='g', linestyle='--', label='Target Price: A${:.2f}'.format(Target_Price))
-plt.legend(fontsize=22,loc="upper left")  # Add legend to display the label
+plt.legend(fontsize=14,loc="upper left")  # Add legend to display the label
 plt.title('Share Price (AUD) Using Different Valuation Methodologies', fontsize=20, fontweight='bold', pad=10, loc='center')
 plt.tick_params(labelsize=16)
 plt.xlim(1,6)
