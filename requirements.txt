@@ -8,3 +8,4 @@ ipywidgets
 fpdf
 lxml
 openpyxl
+fpdf2
