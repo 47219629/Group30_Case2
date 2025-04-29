@@ -8,4 +8,4 @@ ipywidgets
 fpdf
 lxml
 openpyxl
-fpdf2
+cairosvg
